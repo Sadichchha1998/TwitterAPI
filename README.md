@@ -3,9 +3,15 @@ Twitter API Integration with SpringBoot
 This project is a SpringBoot Java application that integrates with the Twitter API and exposes two RESTful APIs:
 
 
+
+
+
 Search Tweet user
 Get tweets of the selected user
 The application uses header-based authentication with a random client ID and client secret.
+
+
+
 
 Getting Started
 Prerequisites
@@ -26,6 +32,8 @@ Update the application.properties file with your Twitter API credentials:
 Build the project:
 Usage
 The application exposes two RESTful APIs:
+
+
 
 Search Tweet user
 Endpoint: GET /api/v1/twitter/search-user
